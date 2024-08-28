@@ -8,6 +8,7 @@ from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampl
 from transformers import BertForSequenceClassification, AdamW
 
 # Load the dataset
+print("This will load the dataset")
 df = pd.read_csv('movie_review_data.csv')
 
 # Initialize the augmenter
